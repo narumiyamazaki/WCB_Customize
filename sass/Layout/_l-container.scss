@@ -1,0 +1,7 @@
+.l-container {
+    height: 100vh;
+    /* スクロールスナップの設定 */
+    overflow: auto;
+    -ms-scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
+  }
