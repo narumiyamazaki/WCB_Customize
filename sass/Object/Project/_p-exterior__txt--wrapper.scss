@@ -1,4 +1,7 @@
 .p-exterior__txt--wrapper{
     @extend %p-exterior__txt--wrapper;
     position: absolute;
+    & > h2 {
+        color:antiquewhite;
+    }
 }
