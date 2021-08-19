@@ -1,0 +1,11 @@
+.p-livingRoom__txt--wrapper{
+    @extend %p-exterior__txt--wrapper;
+    top: 3%;
+    right: 3%;
+    > h2 {
+        color:antiquewhite;
+    }
+    > p {
+        color:#fff;
+    }
+}

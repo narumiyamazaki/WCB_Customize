@@ -3,18 +3,32 @@
     //テキストを配置するためのposition:relative
     position: relative;
     /* スクロールスナップの設定 */
-    scroll-snap-align: start;
+    //scroll-snap-align: start;
     /* テキストを画面中央に表示 */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    padding: 1rem;
+    //height: 100vh;
+    padding-bottom: .5rem;;
+    max-width: 990px;
+    margin: 0 auto;
 }
 
 //各セクションのテキストwrapper
 %p-exterior__txt--wrapper{
+    position: absolute;
     > h2{
-        margin: 1rem 0;
+        margin: 1rem 0 .5rem;
+        font-size: 3rem;
+        font-family: 'Kosugi', sans-serif;
     }
+    & > p {
+        font-size: 1.3rem;
+    }
+}
+
+//各セクションのテキストwrapper
+%p-exterior__img{
+   width: 100%;
+   height: auto;
+   object-fit: cover;
 }
