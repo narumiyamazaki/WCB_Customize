@@ -4,8 +4,14 @@
     top: 3%;
     > h2 {
         color:antiquewhite;
+        @include media(sp){
+            font-size: 2rem;
+        }
     }
     > p {
         color:#fff;
+        @include media(sp){
+            font-size: .8rem;
+        }
     }
 }

@@ -4,8 +4,14 @@
     left: 3%;
     > h2 {
         color:#fff;
+        @include media(sp){
+            font-size: 2rem;
+        }
     }
     > p {
         color:#000;
+        @include media(sp){
+            font-size: .8rem;
+        }
     }
 }

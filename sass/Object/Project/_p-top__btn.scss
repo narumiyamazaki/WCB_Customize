@@ -1,7 +1,14 @@
 .p-top__btn {
-    background-color: #fff;
-    font-size: 1.5rem;
     font-size: 1.4rem;
     color: #000;
-    cursor: pointer
+    padding: 1rem 2rem;
+    background-color: #fff;
+    margin-left: 1.5rem;
+    border-radius: 80%;
+    cursor: pointer;
+    @include media(sp) {
+        font-size: .5rem;
+        padding: .5rem 1rem;
+        border-radius: 70%;
+    }
 }

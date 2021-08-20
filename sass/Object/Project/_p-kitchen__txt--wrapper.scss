@@ -2,10 +2,19 @@
     @extend %p-exterior__txt--wrapper;
     left: 3%;
     top: 17%;
+    @include media(sp){
+        top: 7%;
+    }
     > h2 {
         color:#fff;
+        @include media(sp){
+            font-size: 2rem;
+        }
     }
     > p {
         color:#000;
+        @include media(sp){
+            font-size: .8rem;
+        }
     }
 }
