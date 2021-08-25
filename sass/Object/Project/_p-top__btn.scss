@@ -1,11 +1,9 @@
 .p-top__btn {
     font-size: 1.4rem;
-    color: #000;
-    padding: 1rem 2rem;
-    background-color: #fff;
-    margin-left: 1.5rem;
-    border-radius: 80%;
+    color: #fff;
     cursor: pointer;
+    position: relative;
+    display: inline-block;
     @include media(sp) {
         font-size: .5rem;
         padding: .5rem 1rem;

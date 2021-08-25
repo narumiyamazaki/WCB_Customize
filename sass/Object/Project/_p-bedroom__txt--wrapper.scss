@@ -1,15 +1,15 @@
 .p-bedRoom__txt--wrapper{
     @extend %p-exterior__txt--wrapper;
     right: 3%;
-    top: 3%;
+    top: 19%;
     > h2 {
-        color:antiquewhite;
+        color:#fff;
         @include media(sp){
             font-size: 2rem;
         }
     }
     > p {
-        color:#fff;
+        color:#000;
         @include media(sp){
             font-size: .8rem;
         }

@@ -1,18 +1,18 @@
 .p-livingRoom__txt--wrapper{
     @extend %p-exterior__txt--wrapper;
-    top: 3%;
+    top: 8%;
     right: 3%;
     @include media(sp){
         top: 43%;
     }
     > h2 {
-        color:antiquewhite;
+        color:#fff;
         @include media(sp){
             font-size: 2rem;
         }
     }
     > p {
-        color:#fff;
+        color: #000;;
         @include media(sp){
             font-size: .8rem;
         }
