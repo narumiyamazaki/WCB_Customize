@@ -4,6 +4,11 @@
     padding:1rem 2rem;
     font-size:1.4rem;
     border-radius: 70%;
+    border-bottom: 5px solid gray;
+    &:hover{
+        margin-top:3px;
+        border-bottom: 2px solid gray;
+    }
     @include media(sp){
         font-size: .5rem;
         padding: .5rem 1rem;
